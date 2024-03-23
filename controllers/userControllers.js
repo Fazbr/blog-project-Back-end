@@ -32,4 +32,11 @@ export const registerUser = async (req, res, next) => {
   }
 };
 
+export const loginUser = async (req, res, next) => {
+  try{ 
+
+} catch{
+  next(error);
+}
+
 export { registerUser };
